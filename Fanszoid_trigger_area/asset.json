@@ -1,0 +1,64 @@
+{
+  "id": "fae61892-6961-4340-a5a7-f29a5df97e49",
+  "name": "Fanz Trigger Area",
+  "tags": ["fanz", "area", "trigger"],
+  "category": "access",
+  "parameters": [
+    {
+      "id": "enabled",
+      "label": "Enabled",
+      "type": "boolean",
+      "default": true
+    },
+    {
+      "id": "fanzEventId",
+      "label": "Fanz Event Id",
+      "type": "text",
+      "default": "e0x1"
+    },
+    {
+      "id": "vipTickets",
+      "label": "VIP access tickets (names comma-separated)",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "superVipTickets",
+      "label": "Super VIP access tickets (names comma-separated)",
+      "type": "text",
+      "default": ""
+    },
+    {
+      "id": "onAccessGranted",
+      "label": "When Access is Granted (any ticket)",
+      "type": "actions"
+    },
+    {
+      "id": "onVIPAccessGranted",
+      "label": "When VIP Access is Granted",
+      "type": "actions"
+    },
+    {
+      "id": "onSuperVIPAccessGranted",
+      "label": "When Super VIP Access is Granted",
+      "type": "actions"
+    },
+    {
+      "id": "onAccessDenied",
+      "label": "When Access is Denied",
+      "type": "actions"
+    }
+  ],
+  "actions": [
+    {
+      "id": "enable",
+      "label": "Enable",
+      "parameters": []
+    },
+    {
+      "id": "disable",
+      "label": "Disable",
+      "parameters": []
+    }
+  ]
+}
