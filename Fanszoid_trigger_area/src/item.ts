@@ -60,8 +60,8 @@ export default class FanzAccessTrigger implements IScript<Props> {
                 log("superVipTickets: ", superVipTickets)
 
                 let ticketsFound = []
-                if( json.data && json.data.ticketBalances ) {
-                  ticketsFound = json.data.ticketBalances.map(tb => tb.ticket.name);
+                if( json.data && json.data.balances ) {
+                  ticketsFound = json.data.balances.map(tb => tb.ticket.name);
                 }
 
                 let vipAccess = false;
